@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home- Barbearia</title>
+    <link real="stylesheet" href="/assets/css/reset.css">
+    <link real="stylesheet" href="/assets/css/reset.css">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header>
+    <div class="caixa">
+        <center>
+     <h1><img src="image/banner.jpg"  width="550px"/> 
+       </center>
+       
+
+
+     <!---Listas não ordenadas--->
+     <nav>
+     <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><A href="assets/html/produtos.html">Produtos</A></li>
+        <li><A href="assets/html/contato.html">Contatos</A></li>
+     </ul>
+     </nav>
+
+    </div>
+    </header>
+
+    <!--Conteudo principal-->
+    <main class="menu-contatos">
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" ide="nomesobrenome"class="input-padrao"required>
+            
+            <label for="email">Email</label>
+            <input type="email" ide="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" ide="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email"><input type="radio" 
+                    name="contato" value="email" id="radio-email">Email</label>
+
+                <label for="radio-telefone"><input type="radio"
+                    name="contato" value="telefone" id="radio-telefone">telefone</label>
+
+                    <label for="radio-watsapp"><input type="radio"
+                        name="contato" value="whatsapp" id="radio-watsapp" checked>Whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                    </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbok" checked> Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="enviar formulario" class="enviar">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Segunda-feira</td>
+                    <td>8h ~ 20h</td>
+                    </tr>
+                
+                <tr>
+                    <td>Terça-feira</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta-feira</td>
+                    <td>8h ~ 20h</td>  
+                </tr>
+                <tr> 
+                    <td>Quinta-feira</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta-feira</td>
+                    <td>8h ~ 20h</td>
+
+                 </tr>
+                 </tbody>
+                 </table>
+    </main>
+
+    <!--Rodápe-->
+    <footer>
+        <center>
+        <img src="image/logo.png" alt="Logo da barbearia"> 
+        </center>
+        <p class="Copyright">& copy Copyright Barbearia 2022</p>
+    </footer>
+
+    <main>
+        <selection class="principal">
+            <h2 class="titulo-principal">Sobre a Barbearia </h2>
+
+            
+            <img class="utensilios" src="image/utensilios.jpg" alt="utensilios de barbeiro." width="350px"/>
+            
+
+            <p>Localizada no coração da cidade de SP <strong>Barbearia</strong> 
+            <p>Traz para o mercado o que há de melhor para o seu cabelo e barba.</p>
+            <p>Fundada esse ano de 2022, a Barbearia já e destaque na cidade e conquista novos clientes a cada dia.</p>
+            <p>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes" </strong>.</em></p>
+
+            <p>Oferecemos profissionais experientes e antenados ás mudanças no mundo da moda.</p>
+            <p>O atendimento possui padrão de excelencia e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+        </selection>
+    
+    
+            <section class="beneficios">
+                <h3 class="titulo-principal">Beneficios</h3>
+
+                <div class="conteudo-beneficios">
+                    <ul class="lista-beneficios">
+                        <li class="itens">Atendimento aos clientes</li>
+                        <li class="itens">Espaço diferenciado</li>
+                        <li class="itens">Localização</li>
+                        <li class="itens">profissionais qualificados</li>
+                        <li class="itens">Pontualidade</li>
+                        <li class="itens">Limpeza</li>
+
+                        <footer>
+                        
+                        <img src="image/beneficios.jpg" class="imagem-beneficios" width="550px"/>
+                        
+                       </footer>
+                </div>
+
+                <!--Lista não ordenada-->
+                    <ul class="produtos">
+                        <li>
+                            <h2>Corte de cabelo</h2>
+                            <img src="image/cabelo.jpg">
+                            <p class="produto-descrição">Na tesoura ou máquina, como o cliente preferir</p>
+                            <p class="produto-preço">R$ 25,00</p>
+                        </li>
+                        <li>
+                            <h2>Barba</h2>
+                            <img src="image/barba.jpg">
+                            <p class="produto-descrição">Corte e desenho profissional de barba</p>
+                            <p class="produto-preço">R$ 18,00</p>
+                        </li>
+                        <li>
+                            <h2>Cabelo + barba</h2>
+                            <img src="image/cuidado_de_la_barba_y_el_pelo_1_mobile.jpg">
+                            <p class="produto-descrição">Pacote completo de cabelo e barba</p>
+                            <p class="produto-preço">R$ 35,00</p>
+                        </li>
+                    </ul>
+                </main>
+                    </section>
+                 
+                <div class="video">
+                    
+                    <iframe width="850"
+                     height="350"
+                      src="https://www.youtube.com/embed/hUAgjTl4MmA?start=15"
+                       title="YouTube video player" 
+                       frameborder="0" 
+                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                       allowfullscreen>
+                    
+                    </iframe>
+                    
+                </div>
+                </section>
+                </section>
+                </main> 
+
+
+                <!---Mapa-->
+        <section class ="mapa">
+            <h3 class="titulo-principal">Nosso estabelecimento</h3>
+            <p>Nosso estabelecimento está localizado no coração da cidade</p>
+            <div class="mapa-conteudo">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10344.66185112194!2d-46.8310107739921!3d-23.554422842405543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf00240620f73f%3A0x9ba0eefb6a3af659!2sR.%20Diamante%2C%2011%20-%20Vila%20Veloso%2C%20Carapicu%C3%ADba%20-%20SP%2C%2006332-425!5e0!3m2!1spt-BR!2sbr!4v1668207665703!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </section>
+
+
+
+
+
+</body>
+</html>
+    
+    
+
+
+
+
